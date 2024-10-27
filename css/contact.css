@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: "Roboto", sans-serif;*/
+/*style logo and title text*/
+@font-face {
+
+    font-family: jungle;
+    src: url(/fonts/jungle.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    /* border:2px solid black; */
+    height:140px;
+    padding:20px;
+    background:rgba(115,167,136,.8);
+    margin-bottom:20px;
+}
+header a{
+    text-decoration:none;
+}
+.logo{
+    background: url(/images/logo.png) no-repeat;
+       
+    height: 100px;
+    width:100%;
+    background-size: 100px;
+    font-family: jungle;
+    font-size:48px;
+    padding-left:100px;
+    color:#135e46;
+    text-shadow: 3px 3px black;
+    transition:.3;
+}
+.logo:hover{
+    transform:translate(10px);
+    color:white;
+}
+/*style logo and title text ends*/
+
+
+/*style navbar starts*/
+nav{
+    display:flex;
+    width:40%;
+    justify-content:space-around;
+    align-items: center;
+}
+
+nav a{
+    font-family:jungle;
+    color:#b67b65;
+    font-size:26px;
+    text-shadow:2px 2px black;
+    transition:.3s;
+}
+nav a:hover{
+    color:white;
+    transform:scale(1.3);
+}
+/*style navbar ends*/
+/* style banner and sloths starts*/
+.banner{
+    width:100%;
+    height:250px;
+    background: url(/images/slothEating.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom:20px;
+}
+/*Style form on contact page starts*/
+.contactAndHours{
+height:460px;
+width:100%;
+background: rgba(115,167,136,.8);
+
+}
+.contactAndHours h1{
+    color:white;
+    text-shadow: 2px 2px black;
+    font-size:28px;
+    font-family: "Roboto", sans-serif;
+    margin:0 0 40px 30px;
+    padding-top:40px;
+}
+.formAndTable{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.contactForm input,textarea{
+border-radius: 10px;
+width:300px;
+padding:7px;
+margin-bottom:10px;
+border:2px solid black;
+}
+.contactForm textarea{
+    height:125px;
+    display:block;
+}
+.contactForm label{
+    font-family: "Roboto", sans-serif;
+    color:white;
+    text-shadow: 2px 2px black; 
+    display:block;
+}
+.contactForm button{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    background-color: #135e46;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    width:100px;
+    border:none;
+    cursor:pointer;
+}
+/*Style form on contact page ends*/
+
+
+
+/*Style table starts*/
+.scheduleTable{
+    font-family: "Roboto", sans-serif;  
+    width:25%;
+    border-collapse: collapse;
+}
+
+.scheduleTable td,th{
+border:2px solid black;
+width:50%;
+text-align:center;
+
+}
+.scheduleTable tr:nth-child(even){
+    background-color: white;
+}
+
+.scheduleTable th{
+    font-size:20px;
+    background-color: #135e46;
+    color:white;
+}
+
+/*Style table ends*/
+
+
+
+
+/*style footer starts*/
+footer{
+    display:flex;
+    height:70px;
+    width:100%;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top:20px; */
+}
+footer img{
+    width:50px;
+}
+
+/*style footer ends*/
+
+
+
